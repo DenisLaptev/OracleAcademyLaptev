@@ -34,7 +34,14 @@ public class LazyInitializedSingleton {
 
     //Берём информацию из файла, расположенного по адресу myAddress,
     //используя метод getInformationFromFile.
-    String myAddress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\resources\\application.properties";
+
+    //
+    // Абсолютный адрес:
+    //
+    // String myAddress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\resources\\application.properties";
+    //
+    // Лучше использовать относительный адрес.
+    String myAddress = "src\\main\\resources\\application.properties";
     private ArrayList<String> myInformation = getInformationFromFile(myAddress);
 
     //Данный метод позволяет выдавать информацию во вне из синглтона.
@@ -56,12 +63,15 @@ public class LazyInitializedSingleton {
         String regex = "(.*)=(.*)";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(str);
-        if (matcher.find()) {
+        while (matcher.find()) {
+            //if (matcher.find()) {
 
-            myInformation.add(matcher.group(2));
+                myInformation.add(matcher.group(2));
 
-        } else {
-            System.out.println("NO MATCH");
+            //} else {
+            //    System.out.println("NO MATCH");
+            //}
+
         }
         return myInformation;
 

@@ -5,7 +5,7 @@ import MyWebProject.Entity.Human;
 /**
  * Created by lapte on 16.06.2016.
  */
-public interface UserService {
+public interface HumanService {
     public Human getUserById(long userId);
 
     public Human createUser();
