@@ -14,7 +14,7 @@ import java.io.PrintStream;
 public class MyLog {
 
     public static void main(String[] args) throws Exception {
-        //Создаём файл "log.txt", в который будем
+        //Создаём файл "log.txt", в который будем записывать log-и.
         System.setErr(new PrintStream(new File("log.txt")));
 
         for (int i = 0; i < 10; i++) {

@@ -1,0 +1,10 @@
+insert into users (name, age, email) values ('Alex', 22, 'alex@devkolibri.com');
+SELECT * FROM users;
+SELECT * FROM users where id = 1;
+SELECT name FROM users where id = 2;
+SELECT age,name, age FROM users where id = 2;
+update users set name = 'Steve', age = 55 where id = 2;
+SELECT * FROM users;
+delete from users where id = 2;
+insert into users (name, age, email) values ('Ivan', 55, 'ivan@devkolibri.com');
+insert into users (name, age, email) values ('Petr', 75, 'petr@devkolibri.com');

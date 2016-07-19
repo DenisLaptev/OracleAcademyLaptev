@@ -1,3 +1,4 @@
+/*
 package ProgrammingLectures.lecture_6_IO.item_9;
 
 import org.json.simple.JSONArray;
@@ -9,9 +10,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 
+*/
 /**
  * Created by Kovantonlenko on 12/1/2015.
- */
+ *//*
+
 public class JsonSimpleExample {
     static String filePath = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_9\\jsonEx.json";
 
@@ -61,3 +64,4 @@ public class JsonSimpleExample {
         }
     }
 }
+*/

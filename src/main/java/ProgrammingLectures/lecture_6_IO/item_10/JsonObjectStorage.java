@@ -1,3 +1,4 @@
+/*
 package ProgrammingLectures.lecture_6_IO.item_10;
 
 
@@ -9,9 +10,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+*/
 /**
  * Created by Kovantonlenko on 12/1/2015.
- */
+ *//*
+
 class JsonObjectStorage {
 
     static String filePath = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\ProgrammingLectures\\lecture_6_IO\\item_10\\jsonObj.json";
@@ -63,3 +66,4 @@ class Test extends Parent{
                 '}';
     }
 }
+*/
