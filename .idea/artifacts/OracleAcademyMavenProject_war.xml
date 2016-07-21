@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OracleAcademyMavenProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Programming.war">
+      <element id="artifact" artifact-name="OracleAcademyMavenProject:war exploded" />
+    </root>
+  </artifact>
+</component>
