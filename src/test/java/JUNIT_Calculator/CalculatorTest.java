@@ -1,10 +1,8 @@
 package JUNIT_Calculator;
 
-import Practice2.JUNIT_Calculator.Calculator;
+import HomeWork.Programming.Practice2.JUNIT_Calculator.Calculator;
 import junit.framework.Assert;
 import org.junit.*;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by lapte on 22.06.2016.

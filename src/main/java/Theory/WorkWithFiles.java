@@ -22,7 +22,7 @@ public class WorkWithFiles {
         String text = "Hello world!"; // строка для записи
         try (FileOutputStream fos =
                      new FileOutputStream("D:\\Java\\OracleAcademy\\" +
-                             "J Programming\\WorkWithFilesExample.txt")) {
+                             "J HomeWork.Programming\\WorkWithFilesExample.txt")) {
             // перевод строки в байты
             byte[] buffer = text.getBytes();
 

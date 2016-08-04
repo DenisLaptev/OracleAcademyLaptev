@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class FileList3 {
 
     public static void main(String[] args) {
-        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\Practice1";
+        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\HomeWork.Programming.Practice1";
 
         try {
             Files.walkFileTree(Paths.get(adress), new SimpleFileVisitor<Path>() {

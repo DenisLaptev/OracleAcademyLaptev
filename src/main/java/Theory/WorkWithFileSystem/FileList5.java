@@ -11,7 +11,7 @@ public class FileList5 {
     public static void main(String[] args) {
         String [] [] arrayOfArrays = new String [30] [30];
         ArrayList<String> myFiles;
-        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\Practice1";
+        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\HomeWork.Programming.Practice1";
         File startDir = new File(adress); // стартовый каталог
         arrayOfArrays = recursionMethod(startDir); // основной метод, вся магия там
 

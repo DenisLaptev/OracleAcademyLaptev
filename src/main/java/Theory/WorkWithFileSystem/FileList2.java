@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class FileList2 {
     public static void main(String[] args) {
         ArrayList<String> myFiles = new ArrayList<>();
-        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\Practice1";
+        String adress = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\HomeWork.Programming.Practice1";
         File startDir = new File(adress); // стартовый каталог
         myFiles = recursionMethod(startDir, myFiles); // основной метод, вся магия там
 

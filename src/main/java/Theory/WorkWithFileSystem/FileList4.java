@@ -30,7 +30,7 @@ public class FileList4 {
 
     public static void main(String[] args) {
 
-        String patg_to_dir = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\Practice1";           //наша директория
+        String patg_to_dir = "C:\\Users\\lapte\\IdeaProjects\\OracleAcademyMavenProject\\src\\main\\java\\HomeWork.Programming.Practice1";           //наша директория
         File dir = new File(patg_to_dir);
 
         ArrayList<File> files = new ArrayList<File>(Arrays.asList(dir.listFiles()));        //получаем все файлы из текущей директории
