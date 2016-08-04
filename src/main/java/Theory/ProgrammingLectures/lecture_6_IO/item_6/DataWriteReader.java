@@ -9,7 +9,7 @@ import static Theory.ProgrammingLectures.lecture_6_IO.item_6.DataStreams.BOOLEAN
  * Created by Kovantonlenko on 11/30/2015.
  */
 public class DataWriteReader {
-    static String fileName = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_6\\test.txt";
+    static String fileName = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_6\\test.txt";
 
     public static void main(String[] args) throws IOException {
         DataOutputStream out = new DataOutputStream(new FileOutputStream(new File(fileName)));

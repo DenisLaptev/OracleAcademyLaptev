@@ -7,7 +7,7 @@ import java.io.*;
  */
 public class MyDataReader {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\MAIN\\workspase\\untitled\\target\\classes\\com\\kov\\luckySales\\dao\\impl\\UserDaoImpl.class");
+        File file = new File("C:\\MAIN\\workspase\\untitled\\target\\classes\\com\\lap\\luckySales\\dao\\impl\\UserDaoImpl.class");
 
         int extension = 0xCAFEBABE;
 

@@ -9,7 +9,7 @@ import java.util.Properties;
 public class PropertiesWorker {
     public static void main(String[] args) throws IOException {
 
-        String properies = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_8\\example.properties";
+        String properies = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_8\\example.properties";
 
         readProperties(properies);
 //        writeProperties(properies);

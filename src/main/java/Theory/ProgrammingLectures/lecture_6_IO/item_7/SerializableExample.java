@@ -7,7 +7,7 @@ import java.io.*;
  */
 public class SerializableExample {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        String fileName = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_7\\fileForObjects.txt";
+        String fileName = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_7\\fileForObjects.txt";
 
         User user = new User(100, 25, "Karl", "secure", new Test());
         System.out.println(user);

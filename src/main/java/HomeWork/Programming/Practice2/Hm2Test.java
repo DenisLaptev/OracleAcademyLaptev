@@ -1,4 +1,4 @@
-package HomeWork.Programming.Practice2;//package com.kov.lectures.lecture_3_Exception_JUnitTest.hm2;
+package HomeWork.Programming.Practice2;//package com.lap.lectures.lecture_3_Exception_JUnitTest.hm2;
 //
 //import com.oleynik.home_works.first_homework.FirstTask;
 //import junit.framework.Assert;

@@ -8,8 +8,8 @@ import java.util.Arrays;
  */
 public class ByteReader {
     public static void main(String[] args) {
-        File file = new File("C:\\MAIN\\workspase\\untitled\\target\\classes\\com\\kov\\luckySales\\dao\\impl\\UserDaoImpl.txt");
-//        File file = new File("src\\main\\java\\com\\kov\\lecture_6_IO\\item_4\\simple.txt");
+        File file = new File("C:\\MAIN\\workspase\\untitled\\target\\classes\\com\\lap\\luckySales\\dao\\impl\\UserDaoImpl.txt");
+//        File file = new File("src\\main\\java\\com\\lap\\lecture_6_IO\\item_4\\simple.txt");
 
         byte[] classIdentifier = {(byte) 0xCA, (byte) 0xFE, (byte) 0xBA, (byte) 0xBE}; // .class ������ 4� (0xCA0xFE0xBA0xBE) ����� ������ ���������� ��� ���������� �����.
 

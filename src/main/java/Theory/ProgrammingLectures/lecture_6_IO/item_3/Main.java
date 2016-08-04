@@ -27,7 +27,7 @@ public class Main {
     private static void scanerRead() throws FileNotFoundException {
 
          Set<String> words = new TreeSet<>();
-        String fileName = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_3\\tokenizingEx.txt";
+        String fileName = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_3\\tokenizingEx.txt";
 
         try (Scanner tokenizingScanner = new Scanner(new FileReader(fileName))) {
 

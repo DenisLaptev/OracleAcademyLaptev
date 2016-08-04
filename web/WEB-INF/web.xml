@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>myServlet</servlet-name>
-        <servlet-class>webproject.com.kov.MySimpleServlet</servlet-class>
+        <servlet-class>webproject.com.lap.MySimpleServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

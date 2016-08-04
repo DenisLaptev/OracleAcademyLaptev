@@ -8,7 +8,7 @@ import java.io.*;
 public class MyReader {
     public static void main(String[] args) {
 
-        File file = new File("srasdfc\\main\\java\\com\\kov\\lecture_6_IO\\item_1\\example.txt");
+        File file = new File("srasdfc\\main\\java\\com\\lap\\lecture_6_IO\\item_1\\example.txt");
 
         try (Reader inputStream = new FileReader(file)) {
             int val;

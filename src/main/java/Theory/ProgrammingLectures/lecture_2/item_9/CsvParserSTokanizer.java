@@ -17,7 +17,7 @@ public class CsvParserSTokanizer {
 
             String line;
 
-            br = new BufferedReader(new FileReader("src\\main\\java\\com\\kov\\lectures\\lecture_2\\item_9\\test.csv"));
+            br = new BufferedReader(new FileReader("src\\main\\java\\com\\lap\\lectures\\lecture_2\\item_9\\test.csv"));
 
             while ((line = br.readLine()) != null) {
                 System.out.println(line);

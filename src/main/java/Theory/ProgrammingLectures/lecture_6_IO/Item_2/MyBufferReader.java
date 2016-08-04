@@ -8,8 +8,8 @@ import java.io.*;
 public class MyBufferReader {
     public static void main(String[] args) throws IOException {
 
-        String fileForRead = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_2\\readEx.txt";
-        String fileForWrite = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_2\\writeEx.txt";
+        String fileForRead = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_2\\readEx.txt";
+        String fileForWrite = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_2\\writeEx.txt";
 
         Reader reader = null;
         PrintWriter writer = null;

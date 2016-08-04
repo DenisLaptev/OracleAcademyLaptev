@@ -16,7 +16,7 @@ import java.util.Iterator;
  *//*
 
 public class JsonSimpleExample {
-    static String filePath = "src\\main\\java\\com\\kov\\lecture_6_IO\\item_9\\jsonEx.json";
+    static String filePath = "src\\main\\java\\com\\lap\\lecture_6_IO\\item_9\\jsonEx.json";
 
     public static void main(String[] args) throws IOException, org.json.simple.parser.ParseException {
 
