@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Created by lapte on 20.07.2016.
  */
-public class App {
+public class Task123 {
     public static void createFile(String fileAddress) {
         // Метод создаёт файл.
         // Определяем файл
