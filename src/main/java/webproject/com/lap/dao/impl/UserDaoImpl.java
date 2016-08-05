@@ -48,7 +48,7 @@ public class UserDaoImpl implements UserDao {
             while (resultSet.next()) {
                 User user = new User();
                 user.setId(resultSet.getLong("id"));
-                user.setFirstName(resultSet.getString("name"));
+                user.setName(resultSet.getString("name"));
                 user.setAge(resultSet.getString("age"));
 
                 users.add(user);
@@ -77,7 +77,7 @@ public class UserDaoImpl implements UserDao {
             ResultSet resultSet = preparedStatement.executeQuery();
 
                 user.setId(resultSet.getLong("id"));
-                user.setFirstName(resultSet.getString("name"));
+                user.setName(resultSet.getString("name"));
                 user.setAge(resultSet.getString("age"));
 
         } catch (SQLException e) {
@@ -134,7 +134,7 @@ public class UserDaoImpl implements UserDao {
             PreparedStatement preparedStatement = connection.prepareStatement(CREATE_USER);
 
             preparedStatement.setLong(1, user.getId());
-            preparedStatement.setString(2, user.getFirstName());
+            preparedStatement.setString(2, user.getName());
             preparedStatement.setString(3, user.getAge());
 
             preparedStatement.execute();

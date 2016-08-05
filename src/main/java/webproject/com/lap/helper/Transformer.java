@@ -14,7 +14,7 @@ public class Transformer {
     public static UserDto transformUserToUserDTO(User user) {
         UserDto userDto = new UserDto();
         userDto.setId(user.getId());
-        userDto.setFirstName(user.getFirstName());
+        userDto.setFirstName(user.getName());
         userDto.setAge(user.getAge());
         return userDto;
     }
