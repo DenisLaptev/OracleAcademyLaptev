@@ -99,7 +99,7 @@ public class UserDaoImpl implements UserDao {
     public void delete(long id) {
         Connection connection = dataSource.getConnection();
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement(DELETE_USER_BY_ID + id);
+            PreparedStatement preparedStatement = connection.prepareStatement(DELETE_USER_BY_ID);
             preparedStatement.setLong(1, id);
             preparedStatement.executeUpdate();
 
