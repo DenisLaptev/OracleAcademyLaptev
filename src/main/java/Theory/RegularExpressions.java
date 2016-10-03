@@ -51,7 +51,6 @@ public class RegularExpressions {
         System.out.println("Имена после преобразования:");
         parseName2(text2);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-
     }
 
     public static void parsePostCode(String s) {
