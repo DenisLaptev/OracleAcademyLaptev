@@ -1,9 +1,6 @@
 package Theory.MyLog;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
+import java.io.*;
 
 /**
  * Created by lapte on 28.06.2016.
@@ -28,6 +25,9 @@ public class MyLog {
         // Создадим ситуацию с исключением и запишем исключение в файл "log.txt".
         // В результате все ошибки (System.err.println()) и исключения будут печататься в
         // файл "log.txt". При каждом запуске программы файл обновляется.
+
+        System.setErr(new PrintStream(new FileOutputStream(new File("log.txt"),true)));
+        // Теперь при каждом запуске программы файл не обновляется, а дописывается.
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter your name");

@@ -8,7 +8,7 @@ import java.io.*;
 public class Task5 {
 
     public static String read(String fileName) throws IOException {
-// Метод читает текст из файла и выдаёёт текст.
+// Метод читает текст из файла и выдаёт текст.
         File file = new File(fileName);
 
         //Этот спец. объект для построения строки
@@ -51,7 +51,7 @@ public class Task5 {
             PrintWriter out = new PrintWriter(file.getAbsoluteFile());
 
             try {
-                //Записываем текст у файл
+                //Записываем текст в файл
                 out.print(text);
             } finally {
                 //После чего мы должны закрыть файл

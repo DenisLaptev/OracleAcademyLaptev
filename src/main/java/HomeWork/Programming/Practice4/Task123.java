@@ -23,7 +23,6 @@ public class Task123 {
                 file.createNewFile();
             }
 
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -31,8 +30,10 @@ public class Task123 {
 
 
     public static void writeTextToFile(String fileAddress, String text) {
-        // Метод записывает текст в файл, если такого файла нет, то перед этим создаёт файл.
-        //Определяем файл
+        // Метод записывает текст в файл, если такого файла нет,
+        // то перед этим создаёт файл.
+
+        // Определяем файл
         File file = new File(fileAddress);
 
         try {
@@ -60,7 +61,9 @@ public class Task123 {
 
 
     public static void writeRandomNumbersToFile(String fileAddress, int sizeOfList, int maxNumber) {
-        // Метод записывает набор случайных чисел в файл, если такого файла нет, то перед этим создаёт файл.
+        // Метод записывает набор случайных чисел в файл,
+        // если такого файла нет, то перед этим создаёт файл.
+
         //Определяем файл
         File file = new File(fileAddress);
 
@@ -96,7 +99,6 @@ public class Task123 {
         // Потом мы отсортируем этот список.
 
         ArrayList<Integer> listOfNumbers = new ArrayList<>();
-
 
         File file = new File(fileAddress);
         try {
