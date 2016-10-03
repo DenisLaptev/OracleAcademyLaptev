@@ -52,7 +52,6 @@ public class RegularExpressions {
         parseName2(text2);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-
     }
 
     public static void parsePostCode(String s) {
