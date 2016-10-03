@@ -25,7 +25,6 @@ public class RegularExpressions {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(str);
         */
-
         String text = "Номер телефона магазина: 2452342542, почтовый индекс:" +
                 " 12345. Почтовый индекс института: 23473, секретный шифр: 234657686," +
                 " контактный телефон: 1234567890, также мобильный: 0987654321 " +
